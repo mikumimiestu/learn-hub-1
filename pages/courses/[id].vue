@@ -531,7 +531,7 @@ onMounted(() => {
     
     // Set page title
     useHead({
-      title: `${selectedCourse.value.title} | LearnHub`
+      title: `${selectedCourse.value.title} | TNGDemy`
     });
     
     // Find similar courses in the same category

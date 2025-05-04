@@ -2,7 +2,7 @@
   <header class="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-sm shadow-sm z-header h-header">
     <div class="container h-full flex items-center justify-between">
       <NuxtLink to="/" class="flex items-center">
-        <span class="text-2xl font-bold text-primary-600">Learn<span class="text-accent-600">Hub</span></span>
+        <span class="text-2xl font-bold text-primary-600">TNG<span class="text-accent-600">Demy</span></span>
       </NuxtLink>
       
       <!-- Desktop Navigation -->
@@ -79,7 +79,7 @@ const isMobileMenuOpen = ref(false);
 const navItems = [
   { text: 'Home', to: '/' },
   { text: 'Courses', to: '/courses' },
-  { text: 'Dashboard', to: '/dashboard' },
+  // { text: 'Dashboard', to: '/dashboard' },
   { text: 'About', to: '/about' }
 ];
 </script>

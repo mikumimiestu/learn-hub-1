@@ -274,7 +274,7 @@
 import { ref, reactive } from 'vue';
 
 useHead({
-  title: 'Checkout | LearnHub'
+  title: 'Checkout | TNGDemy'
 });
 
 const paymentStep = ref('information');

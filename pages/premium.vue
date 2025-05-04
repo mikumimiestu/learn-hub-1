@@ -14,7 +14,7 @@
           </h1>
           <p class="text-lg text-accent-100 mb-8 max-w-2xl mx-auto"
             v-motion="{ initial: { opacity: 0 }, enter: { opacity: 1, transition: { delay: 300 } } }">
-            Join LearnHub Premium to access our complete library of courses, receive personalized mentoring, 
+            Join TNGDemy Premium to access our complete library of courses, receive personalized mentoring, 
             and earn recognized certificates to advance your career.
           </p>
           <div v-motion="{ initial: { opacity: 0, scale: 0.9 }, enter: { opacity: 1, scale: 1, transition: { delay: 400 } } }">
@@ -31,7 +31,7 @@
       <div class="container">
         <div class="text-center mb-16">
           <h2 class="text-3xl md:text-4xl font-bold mb-4">Why Choose Premium?</h2>
-          <p class="text-gray-600 max-w-2xl mx-auto">Discover the benefits that make LearnHub Premium the preferred choice for serious learners.</p>
+          <p class="text-gray-600 max-w-2xl mx-auto">Discover the benefits that make TNGDemy Premium the preferred choice for serious learners.</p>
         </div>
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
@@ -335,7 +335,7 @@
               </svg>
             </div>
             <blockquote class="text-gray-700 italic mb-6">
-              "I was skeptical about paying for courses, but LearnHub Premium exceeded my expectations. The quality of content, instructor support, and additional resources are worth every penny. I've completed 5 courses in 3 months!"
+              "I was skeptical about paying for courses, but TNGDemy Premium exceeded my expectations. The quality of content, instructor support, and additional resources are worth every penny. I've completed 5 courses in 3 months!"
             </blockquote>
             <div class="flex items-center">
               <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Member" class="w-12 h-12 rounded-full mr-4">
@@ -413,7 +413,7 @@
         <div class="max-w-3xl mx-auto text-center">
           <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Start Your Premium Journey Today</h2>
           <p class="text-accent-100 text-lg mb-8">
-            Join thousands of learners who have transformed their careers with LearnHub Premium.
+            Join thousands of learners who have transformed their careers with TNGDemy Premium.
           </p>
           <div>
             <NuxtLink to="/payment" class="btn bg-white text-accent-700 hover:bg-accent-50">
@@ -431,7 +431,7 @@
 import { ref } from 'vue';
 
 useHead({
-  title: 'Premium Membership | LearnHub'
+  title: 'Premium Membership | TNGDemy',
 });
 
 const faqs = ref([

@@ -3,7 +3,7 @@
     <div class="container">
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
-          <h3 class="text-xl font-bold mb-4">Learn<span class="text-accent-400">Hub</span></h3>
+          <h3 class="text-xl font-bold mb-4">TNG<span class="text-accent-400">Demy</span></h3>
           <p class="text-gray-400 mb-4">Empowering minds through quality education and innovative learning experiences.</p>
           <div class="flex space-x-4">
             <a href="#" class="text-gray-400 hover:text-white transition-colors">
@@ -54,7 +54,7 @@
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
-              <span class="text-gray-400">support@learnhub.com</span>
+              <span class="text-gray-400">support@tngdemy.id</span>
             </li>
             <li class="flex items-start">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -74,7 +74,7 @@
       </div>
       
       <div class="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
-        <p>&copy; {{ new Date().getFullYear() }} LearnHub. All rights reserved.</p>
+        <p>&copy; {{ new Date().getFullYear() }} TNGDemy. All rights reserved.</p>
       </div>
     </div>
   </footer>

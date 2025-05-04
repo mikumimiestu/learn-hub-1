@@ -175,7 +175,7 @@
 import { ref, onMounted, computed } from 'vue';
 
 useHead({
-  title: 'Courses | LearnHub'
+  title: 'Courses | TNGDemy'
 });
 
 // Categories

@@ -3,7 +3,7 @@
     <div class="container">
       <div class="mb-12 text-center max-w-2xl mx-auto">
         <h2 class="text-3xl md:text-4xl font-bold mb-4">What Our Students Say</h2>
-        <p class="text-gray-600">Hear from our community of learners who have transformed their skills and careers with LearnHub.</p>
+        <p class="text-gray-600">Hear from our community of learners who have transformed their skills and careers with TNGDemy.</p>
       </div>
       
       <div class="relative">
@@ -75,7 +75,7 @@ const testimonials = ref([
     name: 'Jason Kumar',
     avatar: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=800',
     title: 'Full-Stack Developer',
-    quote: 'I tried learning web development through various platforms, but LearnHub',
+    quote: 'I tried learning web development through various platforms, but TNGDemy',
   },
   {
     name: 'Sophia Chen',

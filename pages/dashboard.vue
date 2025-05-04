@@ -558,7 +558,7 @@
 import { ref, computed } from 'vue';
 
 useHead({
-  title: 'Dashboard | LearnHub'
+  title: 'Dashboard | TNGDemy'
 });
 
 const activeTab = ref('courses');
