@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-sans text-gray-800 bg-gray-50;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold leading-tight;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  h4 {
+    @apply text-xl md:text-2xl;
+  }
+
+  p {
+    @apply leading-relaxed;
+  }
+}
+
+@layer components {
+  .container {
+    @apply px-4 mx-auto max-w-7xl;
+  }
+  
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 font-semibold transition duration-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+  
+  .btn-primary {
+    @apply text-white bg-primary-600 hover:bg-primary-700 focus:ring-primary-500;
+  }
+  
+  .btn-secondary {
+    @apply text-primary-700 bg-primary-50 hover:bg-primary-100 focus:ring-primary-500;
+  }
+  
+  .btn-accent {
+    @apply text-white bg-accent-600 hover:bg-accent-700 focus:ring-accent-500;
+  }
+
+  .card {
+    @apply overflow-hidden bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300;
+  }
+
+  .section {
+    @apply py-12 md:py-24;
+  }
+
+  .input {
+    @apply w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:border-primary-500 focus:ring-1 focus:ring-primary-500 focus:outline-none;
+  }
+
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+
+  .badge-premium {
+    @apply bg-accent-100 text-accent-800;
+  }
+
+  .form-label {
+    @apply block mb-2 text-sm font-medium text-gray-700;
+  }
+
+  .page-enter-active,
+  .page-leave-active {
+    transition: all 0.3s;
+  }
+  .page-enter-from,
+  .page-leave-to {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
