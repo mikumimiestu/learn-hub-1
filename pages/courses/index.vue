@@ -205,7 +205,7 @@ const courses = ref([
     image: 'https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     category: 'Development',
     rating: 4.9,
-    price: 89.99,
+    price: 120.555,
     isPremium: true,
     instructor: {
       name: 'Alex Johnson',
@@ -220,7 +220,7 @@ const courses = ref([
     image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     category: 'Design',
     rating: 4.8,
-    price: 79.99,
+    price: 799.299,
     isPremium: true,
     instructor: {
       name: 'Sarah Williams',

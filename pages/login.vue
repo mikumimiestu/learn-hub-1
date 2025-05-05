@@ -54,10 +54,12 @@
           
           <div class="mt-6 grid grid-cols-2 gap-3">
             <button type="button" class="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
-              Google
+              <img src="/assets/google.png" alt="Login Google" srcset="" class="w-6 h-6">
+              <!-- Google -->
             </button>
             <button type="button" class="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
-              Facebook
+              <img src="/assets/facebook.png" alt="Login Facebook" srcset="" class="w-6 h-6">
+              <!-- Facebook -->
             </button>
           </div>
         </div>

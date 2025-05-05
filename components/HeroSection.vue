@@ -61,7 +61,7 @@
               <h3 class="text-lg font-semibold mb-2">Complete Web Development Bootcamp</h3>
               <p class="text-gray-600 text-sm mb-4">Learn modern web development from scratch and build real-world projects</p>
               <div class="flex justify-between items-center">
-                <span class="text-accent-700 font-bold">$89.99</span>
+                <span class="text-accent-700 font-bold">Rp120.000</span>
                 <NuxtLink to="/courses/1" class="btn btn-primary py-2 px-4">Enroll Now</NuxtLink>
               </div>
             </div>

@@ -68,6 +68,28 @@
             </button>
           </div>
         </form>
+
+        <div class="mt-6">
+          <div class="relative">
+            <div class="absolute inset-0 flex items-center">
+              <div class="w-full border-t border-gray-300"></div>
+            </div>
+            <div class="relative flex justify-center text-sm">
+              <span class="px-2 bg-white text-gray-500">Or continue with</span>
+            </div>
+          </div>
+          
+          <div class="mt-6 grid grid-cols-2 gap-3">
+            <button type="button" class="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
+              <img src="/assets/google.png" alt="Login Google" srcset="" class="w-6 h-6">
+              <!-- Google -->
+            </button>
+            <button type="button" class="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
+              <img src="/assets/facebook.png" alt="Login Facebook" srcset="" class="w-6 h-6">
+              <!-- Facebook -->
+            </button>
+          </div>
+        </div>
         
         <p class="mt-4 text-center text-sm text-gray-600">
           Already have an account? 

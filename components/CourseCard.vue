@@ -32,7 +32,7 @@
       </div>
       <div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-between">
         <div>
-          <span v-if="course.isPremium" class="font-bold text-accent-700">${{ course.price }}</span>
+          <span v-if="course.isPremium" class="font-bold text-accent-700">Rp{{ course.price }}</span>
           <span v-else class="font-bold text-green-600">Free</span>
         </div>
         <NuxtLink :to="`/courses/${course.id}`" class="text-primary-600 hover:text-primary-700 font-medium text-sm">
