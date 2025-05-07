@@ -9,7 +9,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div v-motion="{ initial: { opacity: 0, x: -50 }, enter: { opacity: 1, x: 0, transition: { delay: 100 } } }">
           <h1 class="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
-            Unlock Your <span class="text-accent-400">Potential</span> with Premium Courses
+            Unlock Your <span class="text-accent-400">Potential</span>
           </h1>
           <p class="text-lg text-gray-300 mb-8 max-w-xl">
             Discover high-quality courses taught by industry experts. Elevate your skills and advance your career with our comprehensive learning platform.
